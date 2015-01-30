@@ -1,0 +1,15 @@
+.sticky-header {
+    position: relative;
+    z-index: 1;
+
+    &.sticky {
+        position: fixed;
+        top: $top-bar-height;
+        width: 100%;
+
+        .absolute {
+            position: absolute;
+            top: $top-bar-height;
+        }
+    }
+}
