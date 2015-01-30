@@ -1,7 +1,5 @@
 'use strict';
 
-var app = angular.module('merithon');
-
 app.service('$linkedlist', function() {
     return function() {
         this._length = 0;

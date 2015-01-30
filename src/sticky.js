@@ -1,7 +1,5 @@
 'use strict';
 
-var app = angular.module('merithon');
-
 app.directive('stickyContainer', function($linkedlist) {
     return {
         restrict: 'A',
